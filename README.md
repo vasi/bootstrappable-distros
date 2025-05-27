@@ -6,6 +6,10 @@ In an idea world, every distro would be buildable from source code, on some enti
 
 ## Fully bootstrappable distros
 
+Links go to details.
+
+* [NetBSD](NetBSD.md)
+
 ## License
 
 © 2025 by Dave Vasilevsky, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
