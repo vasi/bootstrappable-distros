@@ -9,6 +9,7 @@ In an idea world, every distro would be buildable from source code, on some enti
 Links go to details.
 
 * [NetBSD](NetBSD.md)
+* [Linux From Scratch](LFS.md)
 
 ## License
 
