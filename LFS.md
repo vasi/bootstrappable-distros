@@ -12,11 +12,9 @@ Automation: Manual, though automation tools exist
 
 Integration testing: None
 
-What you get: Very basic command-line system
+What you get: A very basic command-line system
 
-Can install further software from source:
-* Only manually, for example with [Beyond LFS](https://www.linuxfromscratch.org/blfs/)
-* Could install a source-based package manager such as pkgsrc or Gentoo Prefix, to get more software
+Can install further software from source: Only manually, for example with [Beyond LFS](https://www.linuxfromscratch.org/blfs/)
 
 ## Manual testing
 
@@ -99,4 +97,4 @@ Build time: 10 hours, for manually running commands
         * `poweroff`
     * Restart with the internal kernel: `qemu-system-x86_64 -accel kvm -hda lfs.img`
         * It should boot up via grub!
-* Consider continuing via [Beyond LFS](https://www.linuxfromscratch.org/blfs/view/stable/)
+* Can build more software with [Beyond LFS](https://www.linuxfromscratch.org/blfs/view/stable/)

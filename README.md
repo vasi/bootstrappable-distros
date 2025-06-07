@@ -1,6 +1,8 @@
 # Bootstrappable Distros
 
-It's always seemed subtly different when we call a distro "open source". With open source applications like Firefox or MySQL, I can start with a just a compiler and some source, perform a build, and end up running the app. But if I want to run an open source distro like Debian, the only way to start is to download hundreds of megabytes of Debian binary packages! Why can't I just build it from some other operation system?
+It's always seemed subtly different when we call a distro "open source". With open source applications like Firefox or MySQL, I can start with a just a compiler and some source, perform a build, and end up running the app.
+
+But if I want to run an open source distro like Debian, the only way to start is to download hundreds of megabytes of Debian binary packages! Why can't I just build it from some other operation system?
 
 This could be important for solving Trusting Trust attacks, or proving provenance, or porting to new architecures. See the [Bootstrappable Builds](https://bootstrappable.org/) project for more.
 
