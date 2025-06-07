@@ -15,14 +15,15 @@ What distros count as "bootstrappable"? There's many criteria one might use:
 * Ability to cross-build onto a new architecture
 * A tiny, human-auditable seed
 
-For my purposes, I'm considering as "bootstrappable" any distro D that can be built from another build-distro B, without downloading D's binary packages.
+For my purposes, I'm considering as "bootstrappable" any distro (the "target-distro") that can be built from a different "build-distro", without downloading the target-distro's binary packages.
 
 Requirements:
 
-* I must be able to start by running a totally foreign build-distro, not a different version/architecture of the same distro D.
-* All software from the new distro must be built locally. No downloading of ISOs, or binary packages for distro D, the way debootstrap or pacstrap work.
-* I should end up running a full distro D, on eg: a real computer or virtual machine. Not a chroot or container.
-* The final system should feel like a normal setup of distro D, able to run D's package manager and other tooling. It should not feel like some sort of franken-distro, with remnants of the build-distro scattered about.
+* I must be able to start by running a totally foreign build-distro, not a different version/architecture of the same target-distro.
+* All software from the new distro must be built locally. No downloading of ISOs, or binary packages for the target-distro, the way debootstrap or pacstrap work.
+* I should end up running a full target-distro, on a real computer or virtual machine. Not a chroot or container.
+* The final system should feel like a normal setup of the target-distro, able to run its package manager and other tooling. It should not feel like some sort of franken-distro, with remnants of the build-distro scattered about.
+* The target-distro should be self-hosting, able to build a new version of itself. Limited, embedded distros like Android are not the sort of thing I'm looking for.
 
 Limits I allow:
 
