@@ -8,7 +8,7 @@ Bootstrapping documentation: [Cross-compiling NetBSD with build.sh](https://www.
 
 Requirements: Any POSIX with a C++ compiler
 
-Automation: Mostly automated
+Automation: Almost entirely automated
 
 Integration testing: None
 
