@@ -24,7 +24,7 @@ Requirements:
 * I should end up running a full target-distro, on a real computer or virtual machine. Not a chroot or container.
 * The final system should feel like a normal setup of the target-distro, able to run its package manager and other tooling. It should not feel like some sort of franken-distro, with remnants of the build-distro scattered about.
 * The target-distro should be self-hosting, able to build a new version of itself. Limited, embedded distros like Android are not the sort of thing I'm looking for.
-* The target-distro should be an actual software distribution. There should be some sort of native or explicitly-supported way to install more software, even if it's binary-only. Embedded distros, Android, or demos don't fit the goals of this list.
+* The target-distro should be an actual, self-hosting software distribution. There should be some sort of native or explicitly-supported way to install more software, even if it's binary-only. And there should be a supported way to build software, such as a C compiler. Embedded distros, Android, or demos don't fit the goals of this list.
 
 Limits I allow:
 
