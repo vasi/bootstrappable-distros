@@ -1,15 +1,40 @@
 # Bootstrappable Distros
 
-It always bothered me that, although Debian is obsessed with all its packages being buildable from source, to get started with Debian you need to download hundreds of megs of binaries!
+It's always seemed subtly different when we call a distro "open source". With open source applications like Firefox or MySQL, I can start with a just a compiler and some source, perform a build, and end up running the app. But if I want to run an open source distro like Debian, the only way to start is to download hundreds of megabytes of Debian binary packages! Why can't I just build it from some other operation system?
 
-In an idea world, every distro would be buildable from source code, on some entirely different system. See the [Bootstrappable Builds](https://bootstrappable.org/) project for why this sort of thing is important.
+This could be important for solving Trusting Trust attacks, or proving provenance, or porting to new architecures. See the [Bootstrappable Builds](https://bootstrappable.org/) project for more.
+
+## What counts?
+
+What distros count as "bootstrappable"? There's many criteria one might use:
+
+* Reproducible builds of packages, so one can verify that software was not subverted
+* Clear provenance of builds
+* Ability to cross-build onto a new architecture
+* A tiny, human-auditable seed
+
+For my purposes, I'm considering as "bootstrappable" any distro D that can be built from another build-distro B, without downloading D's binary packages.
+
+Requirements:
+
+* I must be able to start by running a totally foreign build-distro, not a different version/architecture of the same distro D.
+* All software from the new distro must be built locally. No downloading of ISOs, or binary packages for distro D, the way debootstrap or pacstrap work.
+* I should end up running a full distro D, on eg: a real computer or virtual machine. Not a chroot or container.
+* The final system should feel like a normal setup of distro D, able to run D's package manager and other tooling. It should not feel like some sort of franken-distro, with remnants of the build-distro scattered about.
+
+Limits I allow:
+
+* It's ok if I need to install binary packages for the build-distro, eg: to install a compiler.
+* It's ok if only certain build-distros are usable, eg: if they must be using a certain libc.
+* It's ok to use binary bootstrap compilers for software that is typically built that way, like Rust or OpenJDK.
+* It's ok if D is not a source-based distro, and typically uses binary packages. Installing further software from source is already a solved problem with tools like pkgsrc, Gentoo Prefix, Linuxbrew or Nix.
 
 ## Fully bootstrappable distros
 
-Links go to details.
+Links go to details. In each case, I've tried to start from a Docker container or fresh install of the build-distro, to make clear exactly what dependencies are required.
 
-* [NetBSD](NetBSD.md)
-* [Linux From Scratch](LFS.md)
+* [NetBSD](NetBSD.md) - Automatic build from anywhere with a compiler
+* [Linux From Scratch](LFS.md) - Build dozens of packages by hand
 
 ## License
 
