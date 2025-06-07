@@ -14,7 +14,7 @@ Integration testing: None
 
 What you get: A minimal command-line distro
 
-Can install further software from source: Yes, with the `butch` minimal package manager
+Can install further software from source: Yes, with the `butch` minimal package manager. Many packages are old, though.
 
 ## Manual testing
 
