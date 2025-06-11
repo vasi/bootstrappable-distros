@@ -40,10 +40,10 @@ Limits I allow:
 
 Links go to details. In each case, I've tried to start from a Docker container or fresh install of the build-distro, to make clear exactly what dependencies are required.
 
-* [NetBSD](NetBSD.md) - Fast and automated bootstrap
-* [FreeBSD](FreeBSD.md) - Complex bootstrap, but CI-tested
-* [Linux From Scratch](LFS.md) - Build dozens of packages by hand, but you might learn something!
-* [Sabotage](Sabotage.md) - Tiny distro built for bootstrapping
+* [NetBSD](distros/NetBSD.md) - Fast and automated bootstrap
+* [FreeBSD](distros/FreeBSD.md) - Complex bootstrap, but CI-tested
+* [Linux From Scratch](distros/LFS.md) - Build dozens of packages by hand, but you might learn something!
+* [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
 
 ## License
 
