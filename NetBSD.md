@@ -29,7 +29,7 @@ Build time: 1h 30m with i7-9750H
 ### Testing process
 
 * Using Fedora 42 host. But it's just to run docker/podman, you could use anything.
-* Start a minimal Debian 12 container to build in: `podman run --name netbsd -ti debian`
+* Start a minimal Debian 12 container to build in: `podman run --name netbsd -ti debian:12`
 * In container:
     * `apt update`
     * `apt install curl gcc g++ zlib1g-dev`
