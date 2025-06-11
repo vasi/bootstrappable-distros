@@ -14,7 +14,7 @@ Integration testing: None
 
 What you get: A very basic command-line system
 
-Can install further software from source: Only manually, for example with [Beyond LFS](https://www.linuxfromscratch.org/blfs/)
+Can install further software from source: Only manually, for example with [Beyond LFS](https://www.linuxfromscratch.org/blfs/). Only a small selection of packages.
 
 ## Manual testing
 
