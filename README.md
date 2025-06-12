@@ -22,6 +22,7 @@ Requirements:
 * I must be able to start by running a totally foreign build-distro, not a different version/architecture of the same target-distro.
 * All software from the new distro must be built locally. No downloading of ISOs, or binary packages for the target-distro, the way debootstrap or pacstrap work.
 * I should end up running a full target-distro, on a real computer or virtual machine. Not a chroot or container.
+* It should at least plausibly be able to run on real hardware, no hobby OSes that haven't yet reached that point.
 * The final system should feel like a normal setup of the target-distro, able to run its package manager and other tooling. It should not feel like some sort of franken-distro, with remnants of the build-distro scattered about.
 * The target-distro should be self-hosting, able to build a new version of itself. Limited, embedded distros like Android are not the sort of thing I'm looking for.
 * The target-distro should be an actual software distribution.
