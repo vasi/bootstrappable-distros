@@ -45,6 +45,11 @@ Links go to details. In each case, I've tried to start from a Docker container o
 * [Linux From Scratch](distros/LFS.md) - Build dozens of packages by hand, but you might learn something!
 * [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
 
+## Honorable mentions
+
+Not real distros, since no package management:
+* [live-bootstrap](distros/live-bootstrap.md) - Build up from a minimal seed
+
 ## License
 
 © 2025 by Dave Vasilevsky, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
