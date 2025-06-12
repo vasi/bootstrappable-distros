@@ -48,6 +48,7 @@ Links go to details. In each case, I've tried to start from a Docker container o
 ## Honorable mentions
 
 Not real distros, since no package management:
+
 * [live-bootstrap](distros/live-bootstrap.md) - Build up from a minimal seed
 
 ## License
