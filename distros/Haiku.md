@@ -73,4 +73,23 @@ Build time: 25 minutes with i5-10310U
   * Shutdown qemu, then restart with just the drive: `qemu-system-x86_64 -accel kvm -m 4G -drive file=haiku.qcow2`
   * Can install binary packages with HaikuDepot
 * To install more source packages without binaries, we need a special [bootstrap build](https://www.haiku-os.org/docs/develop/packages/Bootstrapping.html)
-  * But I wasn't able to get this to build and yield something bootable.It looks like [CI on haikuports.cross has been disabled for months](https://github.com/haikuports/haikuports.cross/actions).
+  * I was not able to complete this successfully, but here is as far as I got
+  * Back in our container:
+    * `apt install automake autoconf libncurses-dev cmake python2 autopoint pkg-config lzip`
+    * `cd haiku`
+    * `git clone --depth=1 https://github.com/haikuports/haikuporter`
+    * `git clone --depth=1 https://github.com/haikuports/haikuports`
+    * `git clone --depth=1 https://github.com/haikuports/haikuports.cross`
+    * `cd /haiku/haiku; git clean -fxd :/`
+    * `mkdir /haiku/bootstrap; cd /haiku/bootstrap`
+    * `../haiku/configure --cross-tools-source ../buildtools --build-cross-tools x86_64 --bootstrap ../haikuporter/haikuporter ../haikuports.cross ../haikuports`
+    * Fixup ICU:
+      * In haikuports.cross/dev-libs/icu_bootstrap/icu_bootstrap-67.1.recipe, add `x86-64` to the ARCHITECTURES line
+      * in haiku/Jamfile, where `icu74` is listed as a package, replace it with `icu`
+    * `MAKEFLAGS= jam -q -sHAIKU_PORTER_CONCURRENT_JOBS=8 @bootstrap-raw`
+      * If there are errors about tarballs failing to download, edit their download URLs in haikuports.cross
+  * `docker cp haiku:/haiku/bootstrap/haiku-bootstrap.image haiku-bootstrap.img`
+  * Run our image in qemu: `qemu-system-x86_64 -accel kvm -m 4G -drive file=haiku-bootstrap.img,format=raw`:
+    * It boots successfully!
+    * But now we want to run the Terminal app, and it doesn't run, nor does it emit an error.
+  * I don't know enough about debugging Haiku to solve this, and it appears [CI has been disabled for months](https://github.com/haikuports/haikuports.cross/actions) on haikuports.cross
