@@ -54,6 +54,10 @@ Not real distros, since no package management:
 
 * [live-bootstrap](distros/live-bootstrap.md) - Build up from a minimal seed
 
+Not self-hosting:
+
+* [buildroot](distros/buildroot.md) - Cross-compile small systems
+
 ## License
 
 © 2025 by Dave Vasilevsky, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
