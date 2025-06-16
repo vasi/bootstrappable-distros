@@ -37,9 +37,14 @@ Limits I allow:
 * It's ok to use binary bootstrap compilers for software that is typically built that way, like Rust or OpenJDK.
 * It's ok if D is not a source-based distro, and typically uses binary packages. Installing further software from source is already a solved problem with tools like pkgsrc, Gentoo Prefix, Linuxbrew or Nix.
 
+Other preferences:
+
+* Where possible, I build in a container to be certain exactly what dependencies are needed.
+* Where possible, I create a bootable image, to show that it's realistic to install on a new system.
+
 ## Fully bootstrappable distros
 
-Links go to details. In each case, I've tried to start from a Docker container or fresh install of the build-distro, to make clear exactly what dependencies are required.
+Links go to details.
 
 * [NetBSD](distros/NetBSD.md) - Fast and automated bootstrap
 * [FreeBSD](distros/FreeBSD.md) - Complex bootstrap, but CI-tested
