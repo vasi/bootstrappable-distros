@@ -21,6 +21,8 @@ What you get: A full Haiku desktop! But without development tools
 
 Can install further software from source: Not easily, but maybe you can figure out the bootstrap procedure below.
 
+Why it doesn't count: Without package bootstrap, can't self-host
+
 ## Manual testing
 
 Version: Git commit e6fc1b24, after R1 beta 5

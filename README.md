@@ -51,7 +51,6 @@ Links go to details.
 * [Linux From Scratch](distros/LFS.md) - Build dozens of packages by hand, but you might learn something!
 * [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
 * [Guix](distros/Guix.md) - Bootstrap from a minimal seed to a complete desktop
-* [Haiku](distros/Haiku.md) - Quickly bootstrap to a full graphical desktop
 
 ## Honorable mentions
 
@@ -62,6 +61,10 @@ Not real distros, since no package management:
 Not self-hosting:
 
 * [buildroot](distros/buildroot.md) - Cross-compile small systems
+
+Bootstrappable, but not working:
+
+* [Haiku](distros/Haiku.md) - Quickly bootstrap to a full graphical desktop. But full package bootstrap seems broken
 
 ## License
 
