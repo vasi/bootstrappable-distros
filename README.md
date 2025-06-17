@@ -56,15 +56,19 @@ Links go to details.
 
 Not real distros, since no package management:
 
-* [live-bootstrap](distros/live-bootstrap.md) - Build up from a minimal seed
+* [live-bootstrap](distros/live-bootstrap.md) - No package management
 
 Not self-hosting:
 
-* [buildroot](distros/buildroot.md) - Cross-compile small systems
+* [buildroot](distros/buildroot.md) - No compiler in target
 
-Bootstrappable, but not working:
+Only partially working:
 
-* [Haiku](distros/Haiku.md) - Quickly bootstrap to a full graphical desktop. But full package bootstrap seems broken
+* [Haiku](distros/Haiku.md) - Gets to a running OS
+
+Totally broken:
+
+* [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
 
 ## License
 
