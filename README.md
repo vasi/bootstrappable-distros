@@ -66,7 +66,7 @@ Only partially working:
 
 * [Haiku](distros/Haiku.md) - Gets to a running OS
 
-Totally broken:
+Bootstrap broken:
 
 * [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
 
