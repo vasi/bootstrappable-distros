@@ -70,6 +70,10 @@ Totally broken:
 
 * [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
 
+## Similar projects
+
+* [live-bootstrap-distro-build-scripts](https://github.com/ajherchenroder/live-bootstrap-distro-build-scripts)
+
 ## License
 
 © 2025 by Dave Vasilevsky, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
