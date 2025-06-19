@@ -51,6 +51,7 @@ Links go to details.
 * [Linux From Scratch](distros/LFS.md) - Build dozens of packages by hand, but you might learn something!
 * [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
 * [Guix](distros/Guix.md) - Bootstrap from a minimal seed to a complete desktop
+* [Gentoo](distros/Gentoo.md) - Convert live-bootstrap to a complete system, designed to build from source
 
 ## Honorable mentions
 
