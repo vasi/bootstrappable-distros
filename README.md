@@ -8,7 +8,7 @@ This could be important for solving Trusting Trust attacks, or proving provenanc
 
 ## Fully bootstrappable distros
 
-Links go to details. Listed are only distros that meet [myparticular criteria for what counts](#what-counts) as "bootstrappable".
+Links go to details. Listed are only distros that meet [my particular criteria for what counts](#what-counts) as "bootstrappable".
 
 * [NetBSD](distros/NetBSD.md) - Fast and automated bootstrap
 * [FreeBSD](distros/FreeBSD.md) - Complex bootstrap, but CI-tested
