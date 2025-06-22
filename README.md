@@ -61,10 +61,10 @@ Requirements:
 
 Limits I allow:
 
-* It's ok if I need to install binary packages for the build-distro, eg: to install a compiler.
+* It's ok if I need to install binary packages _for the build-distro only_, eg: to install a compiler.
 * It's ok if only certain build-distros are usable, eg: if they must be using a certain libc.
 * It's ok to use binary bootstrap compilers for software that is typically built that way, like Rust or OpenJDK.
-* It's ok if D is not a source-based distro, and typically uses binary packages. Installing further software from source is already a solved problem with tools like pkgsrc, Gentoo Prefix, Linuxbrew or Nix.
+* It's ok if the target-distro is not a source-based distro, and typically uses binary packages, as long as it has compilers. Installing further software from source could be considered a solved problem with tools like pkgsrc, Gentoo Prefix, Linuxbrew or Nix.
 
 Other preferences:
 
