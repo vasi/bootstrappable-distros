@@ -8,7 +8,7 @@ This could be important for solving Trusting Trust attacks, or proving provenanc
 
 ## Fully bootstrappable distros
 
-Links go to details. Listed are only distros that meet [my particular criteria for what counts](#what-counts) as "bootstrappable".
+Each link explains more details about the distro, and shows how I reproduced the bootstrap myself. Listed are only distros that meet [my particular criteria for what counts](#what-counts) as "bootstrappable".
 
 * [NetBSD](distros/NetBSD.md) - Fast and automated bootstrap
 * [FreeBSD](distros/FreeBSD.md) - Complex bootstrap, but CI-tested
@@ -17,6 +17,7 @@ Links go to details. Listed are only distros that meet [my particular criteria f
 * [Guix](distros/Guix.md) - Bootstrap from a minimal seed to a complete desktop
 * [Gentoo](distros/Gentoo.md) - Convert live-bootstrap to a complete system, designed to build from source
 * [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
+* [stagex](distros/stagex.md) - Bootstrap through Docker containers
 
 ## Honorable mentions
 
