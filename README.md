@@ -24,7 +24,7 @@ Not real distros, since no package management:
 
 * [live-bootstrap](distros/live-bootstrap.md) - No package management
 
-Not self-hosting:
+No compiler in target:
 
 * [buildroot](distros/buildroot.md) - No compiler in target
 
@@ -54,7 +54,6 @@ Requirements:
 * I should end up running a full target-distro, on a real computer or virtual machine. Not a chroot or container.
 * It should at least plausibly be able to run on real hardware, no hobby OSes that haven't yet reached that point.
 * The final system should feel like a normal setup of the target-distro, able to run its package manager and other tooling. It should not feel like some sort of franken-distro, with remnants of the build-distro scattered about.
-* The target-distro should be self-hosting, able to build a new version of itself. Limited, embedded distros like Android are not the sort of thing I'm looking for.
 * The target-distro should be an actual software distribution.
     * There should be a supported way to install more software, even if it's binary-only. A web browser is a good test-case
     * There should be a compiler that can build more software. Self-hosting is ideal.
