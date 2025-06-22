@@ -52,6 +52,7 @@ Links go to details.
 * [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
 * [Guix](distros/Guix.md) - Bootstrap from a minimal seed to a complete desktop
 * [Gentoo](distros/Gentoo.md) - Convert live-bootstrap to a complete system, designed to build from source
+* [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
 
 ## Honorable mentions
 
