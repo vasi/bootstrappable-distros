@@ -6,6 +6,36 @@ But if I want to run an open source distro like Debian, the only way to start is
 
 This could be important for solving Trusting Trust attacks, or proving provenance, or porting to new architecures. See the [Bootstrappable Builds](https://bootstrappable.org/) project for more.
 
+## Fully bootstrappable distros
+
+Links go to details. Listed are only distros that meet [myparticular criteria for what counts](#what-counts) as "bootstrappable".
+
+* [NetBSD](distros/NetBSD.md) - Fast and automated bootstrap
+* [FreeBSD](distros/FreeBSD.md) - Complex bootstrap, but CI-tested
+* [Linux From Scratch](distros/LFS.md) - Build dozens of packages by hand, but you might learn something!
+* [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
+* [Guix](distros/Guix.md) - Bootstrap from a minimal seed to a complete desktop
+* [Gentoo](distros/Gentoo.md) - Convert live-bootstrap to a complete system, designed to build from source
+* [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
+
+## Honorable mentions
+
+Not real distros, since no package management:
+
+* [live-bootstrap](distros/live-bootstrap.md) - No package management
+
+Not self-hosting:
+
+* [buildroot](distros/buildroot.md) - No compiler in target
+
+Only partially working:
+
+* [Haiku](distros/Haiku.md) - Gets to a running OS
+
+Bootstrap broken:
+
+* [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
+
 ## What counts?
 
 What distros count as "bootstrappable"? There's many criteria one might use:
@@ -41,36 +71,6 @@ Other preferences:
 
 * Where possible, I build in a container to be certain exactly what dependencies are needed.
 * Where possible, I create a bootable image, to show that it's realistic to install on a new system.
-
-## Fully bootstrappable distros
-
-Links go to details.
-
-* [NetBSD](distros/NetBSD.md) - Fast and automated bootstrap
-* [FreeBSD](distros/FreeBSD.md) - Complex bootstrap, but CI-tested
-* [Linux From Scratch](distros/LFS.md) - Build dozens of packages by hand, but you might learn something!
-* [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
-* [Guix](distros/Guix.md) - Bootstrap from a minimal seed to a complete desktop
-* [Gentoo](distros/Gentoo.md) - Convert live-bootstrap to a complete system, designed to build from source
-* [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
-
-## Honorable mentions
-
-Not real distros, since no package management:
-
-* [live-bootstrap](distros/live-bootstrap.md) - No package management
-
-Not self-hosting:
-
-* [buildroot](distros/buildroot.md) - No compiler in target
-
-Only partially working:
-
-* [Haiku](distros/Haiku.md) - Gets to a running OS
-
-Bootstrap broken:
-
-* [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
 
 ## Similar projects
 
