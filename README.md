@@ -25,15 +25,13 @@ Systems that are similar to a bootstrappable distro in many ways, but don't full
 
 No package management:
 
-* [live-bootstrap](distros/live-bootstrap.md) - Build Linux from a minimal seed
+* [live-bootstrap](distros/live-bootstrap.md) - Builds Linux from a minimal seed
+* [toybox](distros/toybox.md) - Minimal embedded Linux
 
 No compiler in target:
 
-* [buildroot](distros/buildroot.md) - Build an embedded Linux
-
-Only partially working:
-
-* [Haiku](distros/Haiku.md) - Ge    ts to a running OS, but fails to construct a build system
+* [buildroot](distros/buildroot.md) - Builds an embedded Linux with no compiler
+* [Haiku](distros/Haiku.md) - Gets to a running OS, but fails to construct a build system
 
 Bootstrap broken:
 
@@ -61,6 +59,7 @@ Requirements:
     * There should be a supported way to install more software, even if it's binary-only. A web browser is a good test-case
     * There should be a compiler that can build more software. Self-hosting is ideal.
     * Basically: embedded distros, Android, or demos don't fit the goals of this list.
+* The target distro should have at least some amount of maintenance. If there haven't been updates in five years, I'll probably skip it.
 
 Limits I allow:
 

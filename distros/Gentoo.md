@@ -11,7 +11,7 @@ Bootstrapping documentation:
 
 Requirements: Any Linux with Python
 
-Automation: None
+Automation: Early steps all manual. Eventually emerge + Catalyst help
 
 Integration testing: None
 

@@ -11,7 +11,7 @@ Bootstrapping documentation: No complete docs, but these are useful:
 
 Requirements: Linux with autotools, make, C/C++ compiler, Guile + several modules
 
-Automation: Mostly automated
+Automation: Mostly automated, but several manual steps required to build system image
 
 Integration testing: [Yes, with Cuirass](https://ci.guix.gnu.org/)
 

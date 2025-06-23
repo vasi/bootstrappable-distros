@@ -8,7 +8,7 @@ Bootstrapping documentation: [Building on non-FreeBSD hosts](https://docs.freebs
 
 Requirements: Any POSIX with a C++ compiler, that can use ZFS
 
-Automation: Partly automated
+Automation: Kernel build automated (make), getting to a bootable ISO needs much manual intervention
 
 Integration testing: [CI job tests the kernel build](https://github.com/freebsd/freebsd-src/blob/main/.github/workflows/cross-bootstrap-tools.yml), but not the userland
 

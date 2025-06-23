@@ -13,7 +13,7 @@ Bootstrapping documentation:
 
 Requirements: Most modern Unixes, with a C compiler and some common tools
 
-Automation: Mostly automated
+Automation: Mostly automated with Jam
 
 Integration testing: [Yes](https://ci.haiku-os.org/)
 

@@ -13,7 +13,7 @@ Bootstrapping documentation: No full docs, but:
 
 Requirements: A few common packages, and BuildStream
 
-Automation: Yes, with BuildStream
+Automation: Mostly automated (BuildStream), but manual intervention needed to avoid binaries
 
 Integration testing: [Yes, with Gitlab CI](https://gitlab.gnome.org/GNOME/gnome-build-meta/-/pipelines)
 

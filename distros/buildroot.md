@@ -8,7 +8,7 @@ Bootstrapping documentation: https://buildroot.org/downloads/manual/manual.html#
 
 Requirements: Any Linux with a compiler and some common tools
 
-Automation: Mostly automated
+Automation: Mostly automated (make + scripts), but need to modify config and create image manually
 
 Integration testing: [CI on Gitlab](https://gitlab.com/buildroot.org/buildroot/pipelines)
 
