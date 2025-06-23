@@ -21,17 +21,19 @@ Each link explains more details about the distro, and shows how I reproduced the
 
 ## Honorable mentions
 
-Not real distros, since no package management:
+Systems that are similar to a bootstrappable distro in many ways, but don't fully meet my criteria.
 
-* [live-bootstrap](distros/live-bootstrap.md) - No package management
+No package management:
+
+* [live-bootstrap](distros/live-bootstrap.md) - Build Linux from a minimal seed
 
 No compiler in target:
 
-* [buildroot](distros/buildroot.md) - No compiler in target
+* [buildroot](distros/buildroot.md) - Build an embedded Linux
 
 Only partially working:
 
-* [Haiku](distros/Haiku.md) - Gets to a running OS
+* [Haiku](distros/Haiku.md) - Ge    ts to a running OS, but fails to construct a build system
 
 Bootstrap broken:
 
