@@ -14,10 +14,11 @@ Each link explains more details about the distro, and shows how I reproduced the
 * [FreeBSD](distros/FreeBSD.md) - Complex bootstrap, but CI-tested
 * [Linux From Scratch](distros/LFS.md) - Build dozens of packages by hand, but you might learn something!
 * [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
+* [stagex](distros/stagex.md) - Bootstrap through Docker containers
 * [Guix](distros/Guix.md) - Bootstrap from a minimal seed to a complete desktop
 * [Gentoo](distros/Gentoo.md) - Convert live-bootstrap to a complete system, designed to build from source
+* [Dragora](distros/dragora.md) - Bootstrap to a Trinity (KDE 3) desktop
 * [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
-* [stagex](distros/stagex.md) - Bootstrap through Docker containers
 
 ## Honorable mentions
 
