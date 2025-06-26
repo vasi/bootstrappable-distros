@@ -19,6 +19,7 @@ Each link explains more details about the distro, and shows how I reproduced the
 * [Gentoo](distros/Gentoo.md) - Convert live-bootstrap to a complete system, designed to build from source
 * [Dragora](distros/dragora.md) - Bootstrap to a Trinity (KDE 3) desktop
 * [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
+* [Chimera Linux](distros/Chimera.md) - Bootstrap from musl to musl
 
 ## Honorable mentions
 
