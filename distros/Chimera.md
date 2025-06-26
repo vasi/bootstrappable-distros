@@ -53,10 +53,10 @@ Build time: 2 days
 * Make a bunch of fixes in packages
   * python-urllib3 has a versioned dep on hatch_vcs that can't be satisfied. In main/python-urllib3/template.py, change the pkgver to 2.5.0, and sha256 to 3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760
   * Various packages depend on chimera-dinit targets in stage 3, which creates cirular deps. In src/cbuild/hooks/pkg/001_runtime_deps.py, find _scan_svc, and in the `for sv in scvreq:` loop add:
-```
+
         if sv in ["pre-local.target", "early-devices.target", "pre-network.target"]:
            continue
-```
+
   * elogind again requires the _scan_svn change, this time with "polkitd"
   * Some packages need "-DCMAKE_POLICY_VERSION_MINIMUM=3.5" in their configure_args. Fix main/woff2/template.py and main/double-conversion/template.py
   * main/libvidstab/template.py needs `configure_args +=` to replace `=` in the `match` statement
