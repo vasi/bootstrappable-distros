@@ -38,6 +38,7 @@ No compiler in target:
 Bootstrap broken:
 
 * [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
+* [stal/IX](stal-ix.md) - Failed at first reboot
 
 ## What counts?
 
