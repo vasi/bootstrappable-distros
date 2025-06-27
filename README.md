@@ -20,6 +20,7 @@ Each link explains more details about the distro, and shows how I reproduced the
 * [Dragora](distros/dragora.md) - Bootstrap to a Trinity (KDE 3) desktop
 * [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
 * [Chimera Linux](distros/Chimera.md) - Bootstrap from musl to musl
+* [Yocto](distros/Yocto.md) - Sophisticated embedded image-builder that can self host
 
 ## Honorable mentions
 
@@ -62,13 +63,13 @@ Requirements:
 * The target-distro should be an actual software distribution.
     * There should be a supported way to install more software, even if it's binary-only. A web browser is a good test-case
     * There should be a compiler that can build more software. Self-hosting is ideal.
-    * Basically: embedded distros, Android, or demos don't fit the goals of this list.
+    * Basically: purely embedded distros, Android, or demos don't fit the goals of this list.
 * The target distro should have at least some amount of maintenance. If there haven't been updates in five years, I'll probably skip it.
 
 Limits I allow:
 
 * It's ok if I need to install binary packages _for the build-distro only_, eg: to install a compiler.
-* It's ok if only certain build-distros are usable, eg: if they must be using a certain libc.
+* It's ok if only certain build-distros are usable, eg: if they must be using a certain libc, or a certain architecture.
 * It's ok to use binary bootstrap compilers for software that is typically built that way, like Rust or OpenJDK.
 * It's ok if the target-distro is not a source-based distro, and typically uses binary packages, as long as it has compilers. Installing further software from source could be considered a solved problem with tools like pkgsrc, Gentoo Prefix, Linuxbrew or Nix.
 
