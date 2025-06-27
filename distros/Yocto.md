@@ -84,6 +84,4 @@ Build time: About 7 hours for core-image-sato-sdk plus packaging
   * `source oe-init-build-env` to enter the build-env
   * Within the build-env:
     * `bitbake core-image-minimal`
-  * TODO
-
-7h?
+  * Resulting image is bootable
