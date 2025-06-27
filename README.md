@@ -35,10 +35,11 @@ No compiler in target:
 * [buildroot](distros/buildroot.md) - Builds an embedded Linux with no compiler
 * [Haiku](distros/Haiku.md) - Gets to a running OS, but fails to construct a build system
 
-Bootstrap broken:
+Bootstrap process exists, but I wasn't able to get it working:
 
 * [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
 * [stal/IX](distros/stal-ix.md) - Failed at first reboot
+* [Adelie Linux](distros/Adelie.md) - Failed to setup abuild
 
 ## What counts?
 
