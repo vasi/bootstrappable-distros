@@ -41,6 +41,7 @@ Bootstrap process exists, but I wasn't able to get it working:
 * [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
 * [stal/IX](distros/stal-ix.md) - Failed at first reboot
 * [Adelie Linux](distros/Adelie.md) - Failed to setup abuild
+* [CRUX](distros/CRUX.md) - Builds too much with the host toolchain, things break all over
 
 ## What counts?
 
