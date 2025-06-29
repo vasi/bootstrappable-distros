@@ -29,7 +29,6 @@ Other limitations:
 * [Gnome OS](distros/GnomeOS.md) - Immutable desktop, can install or build flatpaks
 * [Linux From Scratch](distros/LFS.md) - Added software must be built by hand, though with [guidance](https://www.linuxfromscratch.org/blfs/view/stable/)
 * [Yocto](distros/Yocto.md) - Targeted at embedded systems, but can build thousands of packages
-* [stagex](distros/stagex.md) - Targeted at containers, needs manual intervention to actually boot. Only 200 packages
 
 ## Honorable mentions
 
@@ -54,6 +53,7 @@ Somewhat reasonable bootstrap process exists, but I wasn't able to get it workin
 
 Other issues:
 
+* [stagex](distros/stagex.md) - Targeted at containers, needs manual intervention to actually boot. Unclear if it can run on real hardware.
 * [Debian rebootstrap](https://salsa.debian.org/helmutg/rebootstrap) - Requires running Debian (on another architecture)
 * [Arch bootstrap32](https://git.archlinux32.org/bootstrap32) - Too old
 * [arch-cross-bootstrap](https://github.com/archlinux-riscv/archlinux-cross-bootstrap) - Too old, and requires already running an Arch-based distro (on another architecture)
