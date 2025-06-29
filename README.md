@@ -52,6 +52,12 @@ Bootstrap process exists, but I wasn't able to get it working:
 * [Adelie Linux](distros/Adelie.md) - Failed to setup abuild
 * [CRUX](distros/CRUX.md) - Builds too much with the host toolchain, things break all over
 
+Other issues:
+
+* [Debian rebootstrap](https://salsa.debian.org/helmutg/rebootstrap) - Requires running Debian (on another architecture)
+* [Arch bootstrap32](https://git.archlinux32.org/bootstrap32) - Too old
+* [arch-cross-bootstrap](https://github.com/archlinux-riscv/archlinux-cross-bootstrap) - Too old, and requires already running an Arch-based distro (on another architecture)
+
 ## What counts?
 
 What distros count as "bootstrappable"? There's many criteria one might use:
