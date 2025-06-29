@@ -10,18 +10,26 @@ This could be important for solving Trusting Trust attacks, or proving provenanc
 
 Each link explains more details about the distro, and shows how I reproduced the bootstrap myself. Listed are only distros that meet [my particular criteria for what counts](#what-counts) as "bootstrappable".
 
-* [NetBSD](distros/NetBSD.md) - Fast and automated bootstrap
-* [FreeBSD](distros/FreeBSD.md) - Complex bootstrap, but CI-tested
-* [Linux From Scratch](distros/LFS.md) - Build dozens of packages by hand, but you might learn something!
-* [Sabotage](distros/Sabotage.md) - Tiny distro built for bootstrapping
-* [stagex](distros/stagex.md) - Bootstrap through Docker containers
-* [Guix](distros/Guix.md) - Bootstrap from a minimal seed to a complete desktop
-* [Gentoo](distros/Gentoo.md) - Convert live-bootstrap to a complete system, designed to build from source
-* [Dragora](distros/dragora.md) - Bootstrap to a Trinity (KDE 3) desktop
-* [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
-* [Chimera Linux](distros/Chimera.md) - Bootstrap from musl to musl
-* [Yocto](distros/Yocto.md) - Sophisticated embedded image-builder that can self host
-* [oasis linux](distros/oasis.md)
+Best case: Normal distros one might run on a desktop, with thousands of modern packages that can be easily installed, and no special bootstrap requirements:
+
+* [NetBSD](distros/NetBSD.md)
+* [FreeBSD](distros/FreeBSD.md)
+* [Guix](distros/Guix.md)
+* [Gentoo](distros/Gentoo.md)
+
+Limited package set:
+
+* [Sabotage](distros/Sabotage.md) - Only 1300 packages, most very old
+* [Dragora](distros/dragora.md) - Only 700 packages, most very old
+* [oasis linux](distros/oasis.md) - Only 200 packages
+
+Other limitations:
+
+* [Chimera Linux](distros/Chimera.md) - Only bootstrappable from a handful of musl distros
+* [Gnome OS](distros/GnomeOS.md) - Immutable desktop, can install or build flatpaks
+* [Linux From Scratch](distros/LFS.md) - Added software must be built by hand, though with [guidance](https://www.linuxfromscratch.org/blfs/view/stable/)
+* [Yocto](distros/Yocto.md) - Targeted at embedded systems, but can build thousands of packages
+* [stagex](distros/stagex.md) - Targeted at containers, needs manual intervention to actually boot. Only 200 packages
 
 ## Honorable mentions
 
