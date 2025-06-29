@@ -21,6 +21,7 @@ Each link explains more details about the distro, and shows how I reproduced the
 * [Gnome OS](distros/GnomeOS.md) - An immutable graphical desktop, plus Flatpaks
 * [Chimera Linux](distros/Chimera.md) - Bootstrap from musl to musl
 * [Yocto](distros/Yocto.md) - Sophisticated embedded image-builder that can self host
+* [oasis linux](distros/oasis.md)
 
 ## Honorable mentions
 
