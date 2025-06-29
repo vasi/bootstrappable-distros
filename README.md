@@ -33,19 +33,19 @@ Other limitations:
 
 ## Honorable mentions
 
-Systems that are similar to a bootstrappable distro in many ways, but don't fully meet my criteria.
+Systems that are similar to a bootstrappable distro, or are good efforts towards one, but don't fully meet my criteria.
 
 No package management:
 
-* [live-bootstrap](distros/live-bootstrap.md) - Builds Linux from a minimal seed
-* [toybox](distros/toybox.md) - Minimal embedded Linux
+* [live-bootstrap](distros/live-bootstrap.md)
+* [toybox](distros/toybox.md)
 
 No compiler in target:
 
-* [buildroot](distros/buildroot.md) - Builds an embedded Linux with no compiler
-* [Haiku](distros/Haiku.md) - Gets to a running OS, but fails to construct a build system
+* [buildroot](distros/buildroot.md)
+* [Haiku](distros/Haiku.md) - Dev builds are supposedly possible, but broke when I tried
 
-Bootstrap process exists, but I wasn't able to get it working:
+Somewhat reasonable bootstrap process exists, but I wasn't able to get it working:
 
 * [Void Linux](distros/Void.md) - Didn't get even to stage0 of a bootstrap
 * [stal/IX](distros/stal-ix.md) - Failed at first reboot
@@ -57,6 +57,7 @@ Other issues:
 * [Debian rebootstrap](https://salsa.debian.org/helmutg/rebootstrap) - Requires running Debian (on another architecture)
 * [Arch bootstrap32](https://git.archlinux32.org/bootstrap32) - Too old
 * [arch-cross-bootstrap](https://github.com/archlinux-riscv/archlinux-cross-bootstrap) - Too old, and requires already running an Arch-based distro (on another architecture)
+* [tinycore compiler](https://github.com/linic/tcc) - Incomplete
 
 ## What counts?
 
