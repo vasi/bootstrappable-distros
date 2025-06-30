@@ -22,7 +22,7 @@ Why it doesn't count: Bootstrapping fails on first reboot
 
 Version: Git commit dab8696
 
-Architecture: TODO
+Architecture: x86_64
 
 Date: 2025-06-25
 

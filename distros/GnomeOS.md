@@ -29,7 +29,7 @@ Architecture: x86_64
 
 Date: 2025-06-18
 
-Build time: About one day
+Build time: About one day with i7-9750H
 
 ### Testing process
 

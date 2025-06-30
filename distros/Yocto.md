@@ -27,7 +27,7 @@ Architecture: x86_64
 
 Date: 2025-06-26
 
-Build time: About 7 hours for core-image-sato-sdk plus packaging
+Build time: About 7 hours on i7-9750H, for core-image-sato-sdk plus packaging
 
 ### Testing process
 

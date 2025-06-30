@@ -24,7 +24,7 @@ Architecture: x86_64
 
 Date: 2025-06-23
 
-Build time: About 15 hours
+Build time: About 15 hours with i5-10310U
 
 ### Testing process
 

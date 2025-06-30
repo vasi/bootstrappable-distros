@@ -17,6 +17,10 @@ Best case: Normal distros one might run on a desktop, with thousands of modern p
 * [Guix](distros/Guix.md)
 * [Gentoo](distros/Gentoo.md)
 
+Minor limitations:
+
+* [Yocto](distros/Yocto.md) - Targeted mainly at embedded systems, but can build thousands of packages even on target
+
 Limited package set:
 
 * [Sabotage](distros/Sabotage.md) - Only 1300 packages, most very old
@@ -25,39 +29,42 @@ Limited package set:
 
 Other limitations:
 
-* [Chimera Linux](distros/Chimera.md) - Only bootstrappable from a handful of musl distros
-* [Gnome OS](distros/GnomeOS.md) - Immutable desktop, can install or build flatpaks
+* [Chimera Linux](distros/Chimera.md) - Only bootstrappable from a handful of musl distros. Has good package set
+* [Gnome OS](distros/GnomeOS.md) - Immutable desktop, can build flatpaks but not normal packages
 * [Linux From Scratch](distros/LFS.md) - Added software must be built by hand, though with [guidance](https://www.linuxfromscratch.org/blfs/view/stable/)
-* [Yocto](distros/Yocto.md) - Targeted at embedded systems, but can build thousands of packages
 
 ## Honorable mentions
 
 Systems that are similar to a bootstrappable distro, or are good efforts towards one, but don't fully meet my criteria.
 
-No package management:
+Can bootstrap, close to qualifying:
+
+* [stagex](distros/stagex.md) - Can bootstrap and build packages. Targeted at containers, needs manual intervention to boot in VM. Unclear if it can run on real hardware
+
+Can bootstrap, has working dev tools, but no package management:
 
 * [live-bootstrap](distros/live-bootstrap.md)
 * [toybox](distros/toybox.md)
 
-No compiler in target:
+Can bootstrap, but no working dev tools in target, can't self-host or install packages:
 
 * [buildroot](distros/buildroot.md)
 * [Haiku](distros/Haiku.md) - Dev builds are supposedly possible, but broke when I tried
+* [OpenADK](distros/OpenADK.md)
 
-Somewhat reasonable bootstrap process exists, but I wasn't able to get it working:
+Somewhat reasonable bootstrap process is described, but I wasn't able to get it working:
 
+* [stal/IX](distros/stal-ix.md) - Build completes, almost boots
 * [Void Linux](distros/Void.md)
-* [stal/IX](distros/stal-ix.md)
 * [Adelie Linux](distros/Adelie.md)
 * [CRUX](distros/CRUX.md)
 
-Other issues:
+Good effort, but not eligible:
 
-* [stagex](distros/stagex.md) - Targeted at containers, needs manual intervention to actually boot. Unclear if it can run on real hardware.
-* [Debian rebootstrap](https://salsa.debian.org/helmutg/rebootstrap) - Requires running Debian (on another architecture)
+* [Debian rebootstrap](https://salsa.debian.org/helmutg/rebootstrap) - Can bootstrap, but requires already running Debian (on another architecture)
 * [Arch bootstrap32](https://git.archlinux32.org/bootstrap32) - Too old
 * [arch-cross-bootstrap](https://github.com/archlinux-riscv/archlinux-cross-bootstrap) - Too old, and requires already running an Arch-based distro (on another architecture)
-* [tinycore compiler](https://github.com/linic/tcc) - Incomplete
+* [tinycore compiler](https://github.com/linic/tcc) - Incomplete project
 
 ## What counts?
 
