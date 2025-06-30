@@ -37,7 +37,7 @@ Other limitations:
 
 Systems that are similar to a bootstrappable distro, or are good efforts towards one, but don't fully meet my criteria.
 
-Can bootstrap, close to qualifying:
+Can bootstrap, could arguably qualify:
 
 * [stagex](distros/stagex.md) - Can bootstrap and build packages. Targeted at containers, needs manual intervention to boot in VM. Unclear if it can run on real hardware
 
