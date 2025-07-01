@@ -58,3 +58,22 @@ Build time: About 1 day with i5-10310U
   * `ctr -a /var/run/docker/containerd/containerd.sock -n moby image mount docker.io/stagex/user-mtools:local /mnt`
   * `cp -a /mnt/* /`
   * `umount /mnt`
+* Can we boot on real hardware?
+  * Create a new partition on my EFI-booting ThinkPad T14s g1, format as ext4
+  * Copy contents of boot.img (first partition) and root.img to the new ext4 partition
+  * I already have rEFInd as a bootloader, so just setup a simple "refind_linux.conf" in the filesystem root, specifying the "root=/dev/..." flag for this partition
+    * core/grub is also available in stagex, so we could probably use that
+  * Fixup a few things before boot
+    * Edit rcS to omit sdc stuff
+    * Add some more ttys to inittab for convenience, with lines like "tty2::askfirst:-/bin/sh"
+  * Reboot, and it comes up ok!
+  * Change the network interface in rcS to the one I have plugged in
+    * Run `dhcpcd $IFACE` to bring it up
+    * Ping, wget work
+  * Create a quick "stagex-install" script to automate the installation procedure above
+    * Works great with user/tmux, though the dependencies (core/ncurses, user/libevent) need to be installed too
+  * Let's bring up pkgsrc
+    * Install some stagex dependencies first: core/gcc core/binutils core/gawk core/xz core/linux-headers
+    * Clone pkgsrc git, and bootstrap (according to the pkgsrc docs). It works!
+    * Can install nano, links, psmisc
+    * Some things don't work out of the box, mostly due to musl issues, eg: lowdown, libbsd, llvm

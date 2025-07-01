@@ -32,14 +32,12 @@ Other limitations:
 * [Chimera Linux](distros/Chimera.md) - Only bootstrappable from a handful of musl distros. Has good package set
 * [Gnome OS](distros/GnomeOS.md) - Immutable desktop, can build flatpaks but not normal packages
 * [Linux From Scratch](distros/LFS.md) - Added software must be built by hand, though with [guidance](https://www.linuxfromscratch.org/blfs/view/stable/)
+* [stagex](distros/stagex.md) - Has ~300 packages. Targeted at containers, needs manual intervention to boot, but can run on real hardware.
+
 
 ## Honorable mentions
 
 Systems that are similar to a bootstrappable distro, or are good efforts towards one, but don't fully meet my criteria.
-
-Can bootstrap, could arguably qualify:
-
-* [stagex](distros/stagex.md) - Can bootstrap and build packages. Targeted at containers, needs manual intervention to boot in VM. Unclear if it can run on real hardware
 
 Can bootstrap, has working dev tools, but no package management:
 
