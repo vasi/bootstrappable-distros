@@ -63,6 +63,7 @@ Good effort, but not eligible:
 * [Arch bootstrap32](https://git.archlinux32.org/bootstrap32) - Too old
 * [arch-cross-bootstrap](https://github.com/archlinux-riscv/archlinux-cross-bootstrap) - Too old, and requires already running an Arch-based distro (on another architecture)
 * [tinycore compiler](https://github.com/linic/tcc) - Incomplete project
+* [Funtoo Evolved Bootstrap](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap) - Worked as of 2024, but the repo required to bootstrap was taken down
 
 ## What counts?
 
