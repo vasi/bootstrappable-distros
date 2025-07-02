@@ -32,7 +32,7 @@ Other limitations:
 * [Chimera Linux](distros/Chimera.md) - Only bootstrappable from a handful of musl distros. Has good package set
 * [Gnome OS](distros/GnomeOS.md) - Immutable desktop, can build flatpaks but not normal packages
 * [Linux From Scratch](distros/LFS.md) - Added software must be built by hand, though with [guidance](https://www.linuxfromscratch.org/blfs/view/stable/)
-* [stagex](distros/stagex.md) - Has ~300 packages. Targeted at containers, needs manual intervention to boot, but can run on real hardware.
+* [stagex](distros/stagex.md) - Has ~300 packages. Targeted at containers, needs manual intervention to boot, but can run on real hardware
 
 
 ## Honorable mentions
@@ -44,7 +44,7 @@ Can bootstrap, has working dev tools, but no package management:
 * [live-bootstrap](distros/live-bootstrap.md)
 * [toybox](distros/toybox.md)
 
-Can bootstrap, but no working dev tools in target, can't self-host or install packages:
+Can bootstrap, but no working dev tools in target:
 
 * [buildroot](distros/buildroot.md)
 * [Haiku](distros/Haiku.md) - Dev builds are supposedly possible, but broke when I tried
