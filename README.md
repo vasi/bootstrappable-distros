@@ -104,6 +104,7 @@ Other preferences:
 ## Similar projects
 
 * [live-bootstrap-distro-build-scripts](https://github.com/ajherchenroder/live-bootstrap-distro-build-scripts)
+* [mid-kid's bootstraps](https://mid-kid.root.sx/git/mid-kid/bootstrap/)
 
 ## License
 
