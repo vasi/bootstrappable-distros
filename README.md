@@ -92,13 +92,15 @@ Requirements:
 Limits I allow:
 
 * It's ok if I need to install binary packages _for the build-distro only_, eg: to install a compiler.
+  * In most cases, it would be theoretically possible to bootstrap these dependencies from source, or even from a minimal seed.
 * It's ok if only certain build-distros are usable, eg: if they must be using a certain libc, or a certain architecture.
 * It's ok to use binary bootstrap compilers for software that is typically built that way, like Rust or OpenJDK.
-* It's ok if the target-distro is not a source-based distro, and typically uses binary packages, as long as it has compilers. Installing further software from source could be considered a solved problem with tools like pkgsrc, Gentoo Prefix, Linuxbrew or Nix.
+  * Again, in most cases these could be theoretically bootstrapped up, if I had the time.
+* It's ok if the target-distro is not a source-based distro, and typically uses binary packages, as long as it has compilers. Installing further software from source could be considered a solved problem with tools like pkgsrc, Gentoo Prefix or Nix.
 
 Other preferences:
 
-* Where possible, I build in a container to be certain exactly what dependencies are needed.
+* Where possible, I build in a container or VM to be certain exactly what dependencies are needed.
 * Where possible, I create a bootable image, to show that it's realistic to install on a new system.
 
 ## Similar projects
