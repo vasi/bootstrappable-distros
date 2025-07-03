@@ -6,6 +6,8 @@ But if I want to run an open source distro like Debian, the only way to start is
 
 This could be important for solving Trusting Trust attacks, or proving provenance, or porting to new architecures. See the [Bootstrappable Builds](https://bootstrappable.org/) project for more.
 
+# Distros
+
 ## Fully bootstrappable distros
 
 Each link explains more details about the distro, and shows how I reproduced the bootstrap myself. Listed are only distros that meet [my particular criteria for what counts](#what-counts) as "bootstrappable".
@@ -65,7 +67,22 @@ Good effort, but not eligible:
 * [tinycore compiler](https://github.com/linic/tcc) - Incomplete project
 * [Funtoo Evolved Bootstrap](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap) - Worked as of 2024, but the repo required to bootstrap was taken down
 
-## What counts?
+## To investigate
+
+* EasyOS
+* T2 SDE
+* Alpine
+* NixOS
+* ZilchOS
+* GoboLinux
+* Exherbo
+* PTXdist
+* Slackware
+* LibreELEC
+* OpenWrt
+* Any more ideas? Open an issue or a PR!
+
+# What counts?
 
 What distros count as "bootstrappable"? There's many criteria one might use:
 
@@ -103,11 +120,11 @@ Other preferences:
 * Where possible, I build in a container or VM to be certain exactly what dependencies are needed.
 * Where possible, I create a bootable image, to show that it's realistic to install on a new system.
 
-## Similar projects
+# Similar projects
 
 * [live-bootstrap-distro-build-scripts](https://github.com/ajherchenroder/live-bootstrap-distro-build-scripts)
 * [mid-kid's bootstraps](https://mid-kid.root.sx/git/mid-kid/bootstrap/)
 
-## License
+# License
 
 © 2025 by Dave Vasilevsky, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
