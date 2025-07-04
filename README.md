@@ -56,17 +56,17 @@ There exists a dcumented bootstrap procedure, but I wasn't able to get it workin
 * [Adelie Linux](distros/Adelie.md)
 * [CRUX](distros/CRUX.md)
 
-Good effort, but not eligible:
+Efforts in the right direction, but not eligible:
 
-* [Debian rebootstrap](https://salsa.debian.org/helmutg/rebootstrap) - Can bootstrap, but requires already running Debian (on another architecture)
-* [Arch bootstrap32](https://git.archlinux32.org/bootstrap32) - Too old
-* [arch-cross-bootstrap](https://github.com/archlinux-riscv/archlinux-cross-bootstrap) - Too old, and requires already running an Arch-based distro (on another architecture)
-* [tinycore compiler](https://github.com/linic/tcc) - Incomplete project
-* [Funtoo Evolved Bootstrap](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap) - Worked as of 2024, but the repo required to bootstrap was taken down
+* Debian rebootstrap ([upstream](https://salsa.debian.org/helmutg/rebootstrap)) - Can bootstrap, but requires already running Debian (on another architecture)
+* Arch boostrap32 ([upstream](https://git.archlinux32.org/bootstrap32)) - Untouched in 7 years
+* arch-cross-bootstrap ([upstream](https://github.com/archlinux-riscv/archlinux-cross-bootstrap)) - Untouched in 7 years, and requires already running an Arch-based distro (on another architecture)
+* tinycore compiler ([upstream](https://github.com/linic/tcc)) - Incomplete project
+* Funtoo Evolved Bootstrap ([upstream](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap)) - Worked as of 2024, but the repo required to bootstrap was taken down
+* [EasyOS](distros/EasyOS.md) - Not a full bootstrap, has many binary components
 
 ## To investigate
 
-* EasyOS
 * T2 SDE
 * Alpine
 * NixOS

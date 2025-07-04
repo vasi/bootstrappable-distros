@@ -16,6 +16,8 @@ What you get: TODO
 
 Can install further software from source: TODO
 
+Why it doesn't count: TODO
+
 ## Manual testing
 
 Version: TODO
