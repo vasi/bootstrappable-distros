@@ -17,9 +17,10 @@ Best case: Normal distros one might run on a desktop, with thousands of modern p
 * [Guix](distros/Guix.md)
 * [Gentoo](distros/Gentoo.md)
 
-Minor limitations:
+Targeted mainly at embedded systems, but can bootstrap and self-build packages:
 
-* [Yocto](distros/Yocto.md) - Targeted mainly at embedded systems, but can build thousands of packages even on target
+* [Yocto](distros/Yocto.md)
+* [T2 SDE](distros/T2-SDE.md)
 
 Very limited package set:
 
@@ -67,7 +68,6 @@ Efforts in the right direction, but not eligible:
 
 ## To investigate
 
-* T2 SDE
 * Alpine
 * NixOS
 * ZilchOS

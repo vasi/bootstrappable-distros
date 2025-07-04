@@ -1,0 +1,104 @@
+Index: package/archiver/gzip/gzip.conf
+===================================================================
+--- package/archiver/gzip/gzip.conf	(revision 79040)
++++ package/archiver/gzip/gzip.conf	(working copy)
+@@ -5,8 +5,8 @@
+ # SPDX-License-Identifier: GPL-2.0
+ # --- T2-COPYRIGHT-END ---
+ 
+-var_append SYSGCC_WRAPPER_INSERT ' ' -std=gnu23
+-var_append GCC_WRAPPER_INSERT ' ' -std=gnu23
++atstage toolchain || var_append SYSGCC_WRAPPER_INSERT ' ' -std=gnu23
++atstage toolchain || var_append GCC_WRAPPER_INSERT ' ' -std=gnu23
+ 
+ pm_move_to_bin() {
+     # TODO: better check $prefix
+Index: package/archiver/unzip/unzip.desc
+===================================================================
+--- package/archiver/unzip/unzip.desc	(revision 79040)
++++ package/archiver/unzip/unzip.desc	(working copy)
+@@ -28,7 +28,7 @@
+ [L] OpenSource
+ [S] Stable
+ [V] 60
+-[P] X 0----5---9 110.600
++[P] X 0--3-5---9 110.600
+ 
+ [O] var_append makeopt ' ' '-f unix/Makefile generic LD=${CC}'
+ [O] var_insert makeinstopt ' ' '-f unix/Makefile'
+Index: package/base/kmod/kmod.conf
+===================================================================
+--- package/base/kmod/kmod.conf	(revision 79040)
++++ package/base/kmod/kmod.conf	(working copy)
+@@ -16,7 +16,7 @@
+ 	xprefix=${arch_target}-
+ 	var_append confopt " " "--program-transform-name='s,^,$xprefix,'"
+ else
+-	atstage cross && var_append confopt " " --disable-manpages
++	var_append confopt " " --disable-manpages
+ 	bindir=$sbindir
+ fi
+ 
+Index: package/base/ncurses/ncurses.conf
+===================================================================
+--- package/base/ncurses/ncurses.conf	(revision 79040)
++++ package/base/ncurses/ncurses.conf	(working copy)
+@@ -52,7 +52,8 @@
+ 
+ hook_add postmake 7 "\
+ 	ln -svf libncurses.so $root$libdir/libcurses.so; \
+-	ln -svf libncurses.a $root$libdir/libcurses.a"
++	ln -svf libncurses.a $root$libdir/libcurses.a; \
++	ln -svf libncurses.so $root$libdir/libtinfo.so"
+ 
+ # includedir=$includedir/ncurses
+ var_append makeinstopt ' ' "'INSTALL_LIB=\$(INSTALL) -m 755'"
+Index: package/develop/scons/scons.desc
+===================================================================
+--- package/develop/scons/scons.desc	(revision 79040)
++++ package/develop/scons/scons.desc	(working copy)
+@@ -23,7 +23,7 @@
+ [L] OpenSource
+ [S] Stable
+ [V] 4.8.1
+-[P] X 0----5---9 138.000
++[P] X -----5---9 138.000
+ 
+ [CV-URL] https://scons.org/pages/download.html
+ [D] d9f84cd6a6fffbb24202667368c5ad4dea7db9411213485edfe354f9 SCons-4.8.1.tar.gz http://dl.sourceforge.net/sourceforge/scons/
+Index: package/filesystem/udev/udev.desc
+===================================================================
+--- package/filesystem/udev/udev.desc	(revision 79040)
++++ package/filesystem/udev/udev.desc	(working copy)
+@@ -23,6 +23,7 @@
+ [E] del valgrind
+ [E] opt acl
+ [E] opt systemtap
++[E] add gperf
+ 
+ [L] GPL
+ [S] Stable
+Index: package/go/go/go.desc
+===================================================================
+--- package/go/go/go.desc	(revision 79040)
++++ package/go/go/go.desc	(working copy)
+@@ -23,6 +23,7 @@
+ [P] X -----5---9 106.000
+ 
+ [D] e86588fcd200f9640ded952cd28b96f8785f44a86f6e01eee453744f go1.24.1.src.tar.gz https://golang.org/dl/
++[D] 70460771c51eb0a6f544910f0c321aea3669bafe09ce25c201cef0c2 go1.23.10.src.tar.gz https://golang.org/dl/
+ [D] eb6772b9b8b3116bb4884dda03a30a0df17094ce15a45d94b46007de go1.21.6.src.tar.gz https://golang.org/dl/
+ [D] 31b1975512dff118de3bdc6c7bc12ba9357669ddb56ad48f2dfa2bd0 go1.19.10.src.tar.gz https://go.dev/dl/
+ [D] 2d563fdfc04fbe785f8e359e373da2e6452a3fb6f83e9c929ed8e204 go1.4-bootstrap-20171003.tar.gz https://dl.google.com/go/
+Index: package/security/libxcrypt/libxcrypt.desc
+===================================================================
+--- package/security/libxcrypt/libxcrypt.desc	(revision 79040)
++++ package/security/libxcrypt/libxcrypt.desc	(working copy)
+@@ -13,6 +13,7 @@
+ [A] Björn Esser <besser82@fedoraproject.org>
+ [M] Rene Rebe <rene@t2-project.org>
+ 
++[E] add perl
+ [C] base/system extra/security
+ [F] CROSS NO-LTO.clang NO-LTO.microblaze
+ 
