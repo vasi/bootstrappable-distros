@@ -50,7 +50,7 @@ Can bootstrap, but no working dev tools in target:
 * [Haiku](distros/Haiku.md) - Dev builds are supposedly possible, but broke when I tried
 * [OpenADK](distros/OpenADK.md)
 
-There exists a dcumented bootstrap procedure, but I wasn't able to get it working:
+There exists a documented bootstrap procedure, but I wasn't able to get it working:
 
 * [stal/IX](distros/stal-ix.md) - Build completes, almost boots
 * [Void Linux](distros/Void.md)
@@ -65,6 +65,7 @@ Efforts in the right direction, but not eligible:
 * tinycore compiler ([upstream](https://github.com/linic/tcc)) - Incomplete project
 * Funtoo Evolved Bootstrap ([upstream](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap)) - Worked as of 2024, but the repo required to bootstrap was taken down
 * [EasyOS](distros/EasyOS.md) - Not a full bootstrap, has many binary components
+* [Spack](distros/Spack.md) - Broken bootstrap, also not a real distro
 
 ## To investigate
 
@@ -79,7 +80,7 @@ Efforts in the right direction, but not eligible:
 * OpenWrt
 * pkgsrc
 * Gentoo Prefix
-* Spack
+* Linuxbrew
 
 Any more ideas? Open an issue or a PR!
 
