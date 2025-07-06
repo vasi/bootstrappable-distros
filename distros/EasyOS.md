@@ -8,8 +8,8 @@ Bootstrapping documentation:
 
 * [Blog post](https://bkhome.org/news/202112/how-to-cross-compile-850-packages-using-yoctoopenembedded.html)
 * [woofq repository](https://github.com/bkauler/woofq)
-* (OpenEmbedded repository](https://github.com/bkauler/oe-qky-scarthgap
-))
+* [OpenEmbedded repository](https://github.com/bkauler/oe-qky-scarthgap
+)
 
 Requirements: Linux with compilers
 
@@ -60,7 +60,7 @@ Build time: Over a day, incomplete
 * Run the Yocto build: `bitbake core-image-minimal`
 * Fix all the build breakage
   * A _lot_ of packages need help building
-  * Many downloads are broken, fetch them as needed. The Internet Archive is particularly useful: https://web.archiv  e.org/web/20200123111200/http://distro.ibiblio.org/quirky/quirky6/sources/t2/april/
+  * Many downloads are broken, fetch them as needed. The Internet Archive is particularly useful: https://web.archive.org/web/20200123111200/http://distro.ibiblio.org/quirky/quirky6/sources/t2/april/
   * Need to replace /bin/sh symlink with bash, some scripts assume we have bash
   * NetworkManager bug: https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/issues/955. Just hack the name of "jansson" in the dep-check in meson.build, so it's not found
   * xresprobe: Add to recipe in do_configure: `sed -i 's%edid_monitor_descriptor_types%%' ${S}/ddcprobe/common.h`
