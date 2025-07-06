@@ -56,6 +56,7 @@ There exists a documented bootstrap procedure, but I wasn't able to get it worki
 * [Void Linux](distros/Void.md)
 * [Adelie Linux](distros/Adelie.md)
 * [CRUX](distros/CRUX.md)
+* [Exherbo](distros/Exherbo.md)
 
 Efforts in the right direction, but not eligible:
 
@@ -81,6 +82,7 @@ Efforts in the right direction, but not eligible:
 * pkgsrc
 * Gentoo Prefix
 * Linuxbrew
+* Arch bootstrap32
 
 Any more ideas? Open an issue or a PR!
 
