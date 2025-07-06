@@ -49,6 +49,7 @@ Can bootstrap, but no working dev tools in target:
 * [buildroot](distros/buildroot.md)
 * [Haiku](distros/Haiku.md) - Dev builds are supposedly possible, but broke when I tried
 * [OpenADK](distros/OpenADK.md)
+* [PTXdist](distros/PTXdist.md)
 
 There exists a documented bootstrap procedure, but I wasn't able to get it working:
 
@@ -75,7 +76,6 @@ Efforts in the right direction, but not eligible:
 * ZilchOS
 * GoboLinux
 * Exherbo
-* PTXdist
 * Slackware
 * LibreELEC
 * OpenWrt
