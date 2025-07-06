@@ -75,7 +75,6 @@ Efforts in the right direction, but not eligible:
 * NixOS
 * ZilchOS
 * GoboLinux
-* Exherbo
 * Slackware
 * LibreELEC
 * OpenWrt
