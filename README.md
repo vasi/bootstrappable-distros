@@ -69,6 +69,7 @@ An effort in the right direction, but not eligible:
 * Funtoo Evolved Bootstrap ([upstream](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap)) - Worked as of 2024, but the repo required to bootstrap was taken down
 * [EasyOS](distros/EasyOS.md) - Not a full bootstrap, has many binary components
 * [Spack](distros/Spack.md) - Broken bootstrap, also not a real distro
+* [Slackware](distros/Slackware.md) - Broken bootstrap, also uses several binary components
 
 ## To investigate
 
@@ -76,7 +77,6 @@ An effort in the right direction, but not eligible:
 * NixOS
 * ZilchOS
 * GoboLinux
-* Slackware
 * OpenWrt
 * pkgsrc
 * Gentoo Prefix
