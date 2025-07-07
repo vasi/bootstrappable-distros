@@ -50,6 +50,7 @@ Can bootstrap, but no working dev tools in target:
 * [Haiku](distros/Haiku.md) - Dev builds are supposedly possible, but broke when I tried
 * [OpenADK](distros/OpenADK.md)
 * [PTXdist](distros/PTXdist.md)
+* [LibreELEC](distros/LibreELEC.md)
 
 There exists a documented bootstrap procedure, but I wasn't able to get it working:
 
@@ -59,7 +60,7 @@ There exists a documented bootstrap procedure, but I wasn't able to get it worki
 * [CRUX](distros/CRUX.md)
 * [Exherbo](distros/Exherbo.md)
 
-Efforts in the right direction, but not eligible:
+An effort in the right direction, but not eligible:
 
 * Debian rebootstrap ([upstream](https://salsa.debian.org/helmutg/rebootstrap)) - Can bootstrap, but requires already running Debian (on another architecture)
 * Arch boostrap32 ([upstream](https://git.archlinux32.org/bootstrap32)) - Untouched in 7 years
@@ -76,7 +77,6 @@ Efforts in the right direction, but not eligible:
 * ZilchOS
 * GoboLinux
 * Slackware
-* LibreELEC
 * OpenWrt
 * pkgsrc
 * Gentoo Prefix
