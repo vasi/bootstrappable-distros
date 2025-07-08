@@ -1,4 +1,7 @@
-# Gentoo
+# Gentoo via live-bootstarp
+
+This bootstrap starts with live-bootstrap, hacks its way to a system that can run Portage, then builds a Gentoo chroot and eventually an installable ISO.
+See the [Gentoo Prefix docs](GentooPrefix.md) for a different approach.
 
 ## Bootstrapping info
 

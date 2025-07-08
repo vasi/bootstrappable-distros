@@ -64,6 +64,7 @@ Build time: Incomplete
   * `./sfs-bootstrap`
     * Choose: slackware, x86_64, current, rsync, upgrade
   * This downloads mostly source, but also [a variety of binary packages](https://github.com/nobodino/slackware-from-scratch/blob/master/sfs-bootstrap#L402-L443)!
+    * It's unclear to me what role these have, whether they're installed on the destination system, or just a special bootstrap stage
   * We're dropped in a chroot
 * Run the build
   * `cd /mnt/sfs/scripts  && source ~/.bash_profile`

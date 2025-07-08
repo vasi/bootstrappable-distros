@@ -15,7 +15,7 @@ Best case: Normal distros one might run on a desktop, with thousands of modern p
 * [NetBSD](distros/NetBSD.md)
 * [FreeBSD](distros/FreeBSD.md)
 * [Guix](distros/Guix.md)
-* [Gentoo](distros/Gentoo.md)
+* Gentoo - [via live bootstrap](distros/GentooScratch.md), or [via Gentoo Prefix](distros/GentooPrefix.md)
 
 Targeted mainly at embedded systems, but can bootstrap and self-build packages:
 
@@ -62,14 +62,14 @@ There exists a documented bootstrap procedure, but I wasn't able to get it worki
 
 An effort in the right direction, but not eligible:
 
-* Debian rebootstrap ([upstream](https://salsa.debian.org/helmutg/rebootstrap)) - Can bootstrap, but requires already running Debian (on another architecture)
+* Debian rebootstrap ([upstream](https://salsa.debian.org/helmutg/rebootstrap)) - Requires already running Debian (on another architecture)
 * Arch boostrap32 ([upstream](https://git.archlinux32.org/bootstrap32)) - Untouched in 7 years
-* arch-cross-bootstrap ([upstream](https://github.com/archlinux-riscv/archlinux-cross-bootstrap)) - Untouched in 7 years, and requires already running an Arch-based distro (on another architecture)
+* arch-cross-bootstrap ([upstream](https://github.com/archlinux-riscv/archlinux-cross-bootstrap)) - Requires already running an Arch-based distro (on another architecture). Also untouched in 7 years.
 * tinycore compiler ([upstream](https://github.com/linic/tcc)) - Incomplete project
 * Funtoo Evolved Bootstrap ([upstream](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap)) - Worked as of 2024, but the repo required to bootstrap was taken down
-* [EasyOS](distros/EasyOS.md) - Not a full bootstrap, has many binary components
-* [Spack](distros/Spack.md) - Broken bootstrap, also not a real distro
-* [Slackware](distros/Slackware.md) - Broken bootstrap, also uses several binary components
+* [EasyOS](distros/EasyOS.md) - Uses many binary components packages.
+* [Spack](distros/Spack.md) - Not a bootable distro. Also broken bootstrap.
+* [Slackware](distros/Slackware.md) - Uses several binary packages. Also broken bootstrap.
 
 ## To investigate
 
@@ -79,7 +79,6 @@ An effort in the right direction, but not eligible:
 * GoboLinux
 * OpenWrt
 * pkgsrc
-* Gentoo Prefix
 * Linuxbrew
 * Arch bootstrap32
 
