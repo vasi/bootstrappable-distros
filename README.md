@@ -63,8 +63,7 @@ There exists a documented bootstrap procedure, but I wasn't able to get it worki
 An effort in the right direction, but not eligible:
 
 * Debian rebootstrap ([upstream](https://salsa.debian.org/helmutg/rebootstrap)) - Requires already running Debian (on another architecture)
-* Arch boostrap32 ([upstream](https://git.archlinux32.org/bootstrap32)) - Untouched in 7 years
-* arch-cross-bootstrap ([upstream](https://github.com/archlinux-riscv/archlinux-cross-bootstrap)) - Requires already running an Arch-based distro (on another architecture). Also untouched in 7 years.
+* arch-cross-bootstrap ([upstream](https://github.com/archlinux-riscv/archlinux-cross-bootstrap)) and Arch boostrap32 ([upstream](https://git.archlinux32.org/bootstrap32)) - Both require already running an Arch-based distro (on another architecture). Also untouched in 7 years.
 * tinycore compiler ([upstream](https://github.com/linic/tcc)) - Incomplete project
 * Funtoo Evolved Bootstrap ([upstream](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap)) - Worked as of 2024, but the repo required to bootstrap was taken down
 * [EasyOS](distros/EasyOS.md) - Uses many binary components packages.
@@ -75,12 +74,10 @@ An effort in the right direction, but not eligible:
 
 * Alpine
 * NixOS
-* ZilchOS
 * GoboLinux
 * OpenWrt
 * pkgsrc
 * Linuxbrew
-* Arch bootstrap32
 
 Any more ideas? Open an issue or a PR!
 
