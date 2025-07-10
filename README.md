@@ -52,6 +52,10 @@ Can bootstrap, but no working dev tools in target:
 * [PTXdist](distros/PTXdist.md)
 * [LibreELEC](distros/LibreELEC.md)
 
+Can bootstrap a package manager with a toolchain, but not a bootable OS:
+
+* [Nix/NixOS](distros/NixOS.md) - Can attempt to make bootable, but it fails for me
+
 There exists a documented bootstrap procedure, but I wasn't able to get it working:
 
 * [stal/IX](distros/stal-ix.md) - Build completes, almost boots
@@ -73,7 +77,6 @@ An effort in the right direction, but not eligible:
 ## To investigate
 
 * Alpine
-* NixOS
 * GoboLinux
 * OpenWrt
 * pkgsrc
