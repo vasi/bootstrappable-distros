@@ -17,7 +17,7 @@ Best case: Normal distros one might run on a desktop, with thousands of modern p
 * [Guix](distros/Guix.md)
 * Gentoo - [via live bootstrap](distros/GentooScratch.md), or [via Gentoo Prefix](distros/GentooPrefix.md)
 
-Targeted mainly at embedded systems, but can bootstrap and self-build packages:
+Targeted mainly at embedded systems, but can bootstrap on any computer and self-build packages:
 
 * [Yocto](distros/Yocto.md)
 * [T2 SDE](distros/T2-SDE.md)
@@ -55,6 +55,7 @@ Can bootstrap, but no working dev tools in target:
 Can bootstrap a package manager with a toolchain, but not a bootable OS:
 
 * [Nix/NixOS](distros/NixOS.md) - Can attempt to make bootable, but it fails for me
+* [pkgsrc](distros/pkgsrc.md)
 
 There exists a documented bootstrap procedure, but I wasn't able to get it working:
 
@@ -79,7 +80,6 @@ An effort in the right direction, but not eligible:
 * Alpine
 * GoboLinux
 * OpenWrt
-* pkgsrc
 * Linuxbrew
 
 Any more ideas? Open an issue or a PR!
