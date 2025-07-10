@@ -52,10 +52,11 @@ Can bootstrap, but no working dev tools in target:
 * [PTXdist](distros/PTXdist.md)
 * [LibreELEC](distros/LibreELEC.md)
 
-Can bootstrap a package manager with a toolchain, but not a bootable OS:
+Can bootstrap a package manager and a toolchain, but not a bootable OS:
 
 * [Nix/NixOS](distros/NixOS.md) - Can attempt to make bootable, but it fails for me
 * [pkgsrc](distros/pkgsrc.md)
+* [Homebrew/Linuxbrew](distros/Homebrew.md)
 
 There exists a documented bootstrap procedure, but I wasn't able to get it working:
 
@@ -80,7 +81,6 @@ An effort in the right direction, but not eligible:
 * Alpine
 * GoboLinux
 * OpenWrt
-* Linuxbrew
 
 Any more ideas? Open an issue or a PR!
 
