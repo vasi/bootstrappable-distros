@@ -33,7 +33,7 @@ Other limitations:
 * [Chimera Linux](distros/Chimera.md) - Only bootstrappable from a handful of musl distros
 * [Gnome OS](distros/GnomeOS.md) - Immutable distro, can't install packages in normal ways. Can build certain flatpaks
 * [Linux From Scratch](distros/LFS.md) - Added software must be built by hand, though with [guidance](https://www.linuxfromscratch.org/blfs/view/stable/)
-* [stagex](distros/stagex.md) - Targeted at containers, needs some extra work to be bootable on hardware
+* [stagex](distros/stagex.md) - Targeted at containers, needs some extra work to be bootable on hardware. Only 400 packages.
 
 ## Honorable mentions
 
