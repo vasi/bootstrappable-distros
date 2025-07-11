@@ -75,10 +75,10 @@ An effort in the right direction, but not eligible:
 * [EasyOS](distros/EasyOS.md) - Uses many binary components packages.
 * [Spack](distros/Spack.md) - Not a bootable distro. Also broken bootstrap.
 * [Slackware](distros/Slackware.md) - Uses several binary packages. Also broken bootstrap.
+* [Alpine Linux](distros/Alpine.md) - Seems to require starting on Alpine
 
 ## To investigate
 
-* Alpine
 * GoboLinux
 * OpenWrt
 
