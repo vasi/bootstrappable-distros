@@ -17,10 +17,11 @@ Best case: Normal distros one might run on a desktop, with thousands of modern p
 * [Guix](distros/Guix.md)
 * [NetBSD](distros/NetBSD.md)
 
-Targeted mainly at embedded systems, but can bootstrap on any computer and self-build packages:
+Targeted mainly at embedded systems, but can bootstrap, run on normal computers, and self-build packages:
 
 * [T2 SDE](distros/T2-SDE.md)
 * [Yocto](distros/Yocto.md)
+* [OpenWRT](distros/OpenWRT.md)
 
 Very limited package set:
 
@@ -79,8 +80,6 @@ An effort in the right direction, but not eligible:
 * tinycore compiler ([upstream](https://github.com/linic/tcc)) - Incomplete project
 
 ## To investigate
-
-* OpenWrt
 
 Any more ideas? Open an issue or a PR!
 
