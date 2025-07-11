@@ -73,13 +73,13 @@ An effort in the right direction, but not eligible:
 * Debian rebootstrap ([upstream](https://salsa.debian.org/helmutg/rebootstrap)) - Requires already running Debian (on another architecture)
 * [EasyOS](distros/EasyOS.md) - Uses many binary components packages.
 * Funtoo Evolved Bootstrap ([upstream](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap)) - Worked as of 2024, but the repo required to bootstrap was taken down
+* GoboALFS ([upstream](https://github.com/gobolinux/GoboALFS)) - Untouched in 8 years, doesn't seem to work
 * [Slackware](distros/Slackware.md) - Uses several binary packages. Also broken bootstrap.
 * [Spack](distros/Spack.md) - Not a bootable distro. Also broken bootstrap.
 * tinycore compiler ([upstream](https://github.com/linic/tcc)) - Incomplete project
 
 ## To investigate
 
-* GoboLinux
 * OpenWrt
 
 Any more ideas? Open an issue or a PR!
