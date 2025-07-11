@@ -12,21 +12,21 @@ These distros are fully bootstrappable, according to [my particular criteria for
 
 Best case: Normal distros one might run on a desktop, with thousands of modern packages that can be easily installed, and no special bootstrap requirements:
 
-* [NetBSD](distros/NetBSD.md)
 * [FreeBSD](distros/FreeBSD.md)
-* [Guix](distros/Guix.md)
 * Gentoo - [via live bootstrap](distros/GentooScratch.md), or [via Gentoo Prefix](distros/GentooPrefix.md)
+* [Guix](distros/Guix.md)
+* [NetBSD](distros/NetBSD.md)
 
 Targeted mainly at embedded systems, but can bootstrap on any computer and self-build packages:
 
-* [Yocto](distros/Yocto.md)
 * [T2 SDE](distros/T2-SDE.md)
+* [Yocto](distros/Yocto.md)
 
 Very limited package set:
 
-* [Sabotage](distros/Sabotage.md) - Only 1300 packages, most very old
 * [Dragora](distros/dragora.md) - Only 700 packages, most very old
 * [oasis linux](distros/oasis.md) - Only 200 packages
+* [Sabotage](distros/Sabotage.md) - Only 1300 packages, most very old
 
 Other limitations:
 
@@ -48,34 +48,34 @@ Can bootstrap, but no working dev tools in target:
 
 * [buildroot](distros/buildroot.md)
 * [Haiku](distros/Haiku.md) - Dev builds are supposedly possible, but broke when I tried
+* [LibreELEC](distros/LibreELEC.md)
 * [OpenADK](distros/OpenADK.md)
 * [PTXdist](distros/PTXdist.md)
-* [LibreELEC](distros/LibreELEC.md)
 
 Can bootstrap a package manager and a toolchain, but not a bootable OS:
 
+* [Homebrew/Linuxbrew](distros/Homebrew.md)
 * [Nix/NixOS](distros/NixOS.md) - Can attempt to make bootable, but it fails for me
 * [pkgsrc](distros/pkgsrc.md)
-* [Homebrew/Linuxbrew](distros/Homebrew.md)
 
-There exists a documented bootstrap procedure, but I wasn't able to get it working:
+Has a documented bootstrap procedure, but I wasn't able to get it working:
 
-* [stal/IX](distros/stal-ix.md) - Build completes, almost boots
-* [Void Linux](distros/Void.md)
 * [Adelie Linux](distros/Adelie.md)
 * [CRUX](distros/CRUX.md)
 * [Exherbo](distros/Exherbo.md)
+* [stal/IX](distros/stal-ix.md) - Build completes, almost boots
+* [Void Linux](distros/Void.md)
 
 An effort in the right direction, but not eligible:
 
-* Debian rebootstrap ([upstream](https://salsa.debian.org/helmutg/rebootstrap)) - Requires already running Debian (on another architecture)
-* arch-cross-bootstrap ([upstream](https://github.com/archlinux-riscv/archlinux-cross-bootstrap)) and Arch boostrap32 ([upstream](https://git.archlinux32.org/bootstrap32)) - Both require already running an Arch-based distro (on another architecture). Also untouched in 7 years.
-* tinycore compiler ([upstream](https://github.com/linic/tcc)) - Incomplete project
-* Funtoo Evolved Bootstrap ([upstream](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap)) - Worked as of 2024, but the repo required to bootstrap was taken down
-* [EasyOS](distros/EasyOS.md) - Uses many binary components packages.
-* [Spack](distros/Spack.md) - Not a bootable distro. Also broken bootstrap.
-* [Slackware](distros/Slackware.md) - Uses several binary packages. Also broken bootstrap.
 * [Alpine Linux](distros/Alpine.md) - Seems to require starting on Alpine
+* arch-cross-bootstrap ([upstream](https://github.com/archlinux-riscv/archlinux-cross-bootstrap)) and Arch boostrap32 ([upstream](https://git.archlinux32.org/bootstrap32)) - Both require already running an Arch-based distro (on another architecture). Also untouched in 7 years.
+* Debian rebootstrap ([upstream](https://salsa.debian.org/helmutg/rebootstrap)) - Requires already running Debian (on another architecture)
+* [EasyOS](distros/EasyOS.md) - Uses many binary components packages.
+* Funtoo Evolved Bootstrap ([upstream](https://www.funtoo.org/Funtoo:Metro/Evolved_Bootstrap)) - Worked as of 2024, but the repo required to bootstrap was taken down
+* [Slackware](distros/Slackware.md) - Uses several binary packages. Also broken bootstrap.
+* [Spack](distros/Spack.md) - Not a bootable distro. Also broken bootstrap.
+* tinycore compiler ([upstream](https://github.com/linic/tcc)) - Incomplete project
 
 ## To investigate
 
