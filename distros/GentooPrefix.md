@@ -72,7 +72,7 @@ Build time:
   * Can install graphical apps like icewm, firefox
     * May want to emerge rust first, then remove rust-bin, so we don't end up with binary packages installed
 * From here, we can bootstrap a real Gentoo
-  * Just jump straight to the cross-tools section of [the Gentoo live-bootstrap procses](GentooScratch.md), skipping the live-bootstrap and most of the portage-setup sections
+  * Just jump straight to the cross-tools section of [the Gentoo live-bootstrap process](GentooScratch.md), skipping the live-bootstrap and most of the portage-setup sections
   * From the portage-setup, we still need:
     * To create a portage user, and make sure the user has permissions to access the prefix (eg: with ACLs)
     * To create make.defaults, which was done earlier in the portage-setup stage
