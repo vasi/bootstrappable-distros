@@ -66,6 +66,7 @@ Has a documented bootstrap procedure, but I wasn't able to get it working:
 * [Exherbo](distros/Exherbo.md)
 * [stal/IX](distros/stal-ix.md) - Build completes, almost boots
 * [Void Linux](distros/Void.md)
+* [Azure Linux](distros/Azure.md)
 
 An effort in the right direction, but not eligible:
 
