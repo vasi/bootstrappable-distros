@@ -52,7 +52,7 @@ Build time:
   * `./rootfs.py -c --external-sources --cores $(nproc)`
 * Enter a chroot
   * `cd target`
-  * `sudo mount -t devtmpfs devtmpfs dev/pts`
+  * `sudo mount -t devpts devpts dev/pts`
   * You should have mountpoints at proc, sys, dev, dev/pts, dev/shm
   * `sudo env -i TERM="$TERM" chroot . /bin/bash -l`
   * In the chroot:
