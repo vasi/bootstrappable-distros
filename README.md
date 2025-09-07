@@ -84,6 +84,8 @@ An effort in the right direction, but not eligible:
 
 Any more ideas? Open an issue or a PR!
 
+* Gentoo using [crossdev](https://wiki.gentoo.org/wiki/Crossdev)
+
 # What counts?
 
 What distros count as "bootstrappable"? There's many criteria you could use, relating to reproducible builds, or the minimal size of binaries required, etc.
