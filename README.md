@@ -17,11 +17,12 @@ Best case: Normal distros one might run on a desktop, with thousands of modern p
 * [Guix](distros/Guix.md)
 * [NetBSD](distros/NetBSD.md)
 
-Targeted mainly at embedded systems, but can bootstrap, run on normal computers, and self-build packages:
+Targeted mainly at embedded systems or containers, but can bootstrap, run on normal computers, and self-build packages:
 
 * [T2 SDE](distros/T2-SDE.md)
 * [Yocto](distros/Yocto.md)
 * [OpenWRT](distros/OpenWRT.md)
+* [Azure Linux](distros/Azure.md)
 
 Very limited package set:
 
@@ -66,7 +67,6 @@ Has a documented bootstrap procedure, but I wasn't able to get it working:
 * [Exherbo](distros/Exherbo.md)
 * [stal/IX](distros/stal-ix.md) - Build completes, almost boots
 * [Void Linux](distros/Void.md)
-* [Azure Linux](distros/Azure.md)
 
 An effort in the right direction, but not eligible:
 
