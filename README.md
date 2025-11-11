@@ -16,6 +16,7 @@ Best case: Normal distros one might run on a desktop, with thousands of modern p
 * Gentoo - [via live bootstrap](distros/GentooScratch.md), or [via Gentoo Prefix](distros/GentooPrefix.md)
 * [Guix](distros/Guix.md)
 * [NetBSD](distros/NetBSD.md)
+* [Gloire](distros/Gloire.md)
 
 Targeted mainly at embedded systems or containers, but can bootstrap, run on normal computers, and self-build packages:
 
