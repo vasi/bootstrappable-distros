@@ -85,6 +85,9 @@ An effort in the right direction, but not eligible:
 Any more ideas? Open an issue or a PR!
 
 * Gentoo using [crossdev](https://wiki.gentoo.org/wiki/Crossdev)
+* [Ataraxia Linux](https://gitlab.com/ataraxialinux/ataraxia/-/blob/master/docs/bootstrapping.md)
+* GoboALFS has been touched recently, maybe it's better
+* [AerynOS](https://github.com/AerynOS) claims boostrappability, though the docs aren't very good
 
 # What counts?
 
@@ -125,4 +128,4 @@ Other preferences:
 
 # License
 
-© 2025 by Dave Vasilevsky, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+© 2026 by Dave Vasilevsky, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
