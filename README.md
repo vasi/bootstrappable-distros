@@ -88,6 +88,7 @@ Any more ideas? Open an issue or a PR!
 * [Ataraxia Linux](https://gitlab.com/ataraxialinux/ataraxia/-/blob/master/docs/bootstrapping.md)
 * GoboALFS has been touched recently, maybe it's better
 * [AerynOS](https://github.com/AerynOS) claims boostrappability, though the docs aren't very good
+* [Tin Can](https://tincan-linux.github.io/install/hard)
 
 # What counts?
 
