@@ -89,6 +89,7 @@ Any more ideas? Open an issue or a PR!
 * GoboALFS has been touched recently, maybe it's better
 * [AerynOS](https://github.com/AerynOS) claims boostrappability, though the docs aren't very good
 * [Tin Can](https://tincan-linux.github.io/install/hard)
+* [Photon](https://vmware.github.io/photon/docs-v4/installation-guide/building-images/)
 
 # What counts?
 
