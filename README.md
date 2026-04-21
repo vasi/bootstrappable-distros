@@ -90,6 +90,10 @@ Any more ideas? Open an issue or a PR!
 * [AerynOS](https://github.com/AerynOS) claims boostrappability, though the docs aren't very good
 * [Tin Can](https://tincan-linux.github.io/install/hard)
 * [Photon](https://vmware.github.io/photon/docs-v4/installation-guide/building-images/)
+* [Glaucus](https://wiki.glaucuslinux.org/bootstrap/)
+* [iglunix](https://github.com/iglunix/iglunix-bootstrap)
+* [Kreato](https://github.com/kreatolinux/src)
+* [Little Blue Linux](https://codeberg.org/FreeSA/cross-building-linux)
 
 # What counts?
 
